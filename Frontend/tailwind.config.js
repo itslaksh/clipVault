@@ -19,12 +19,17 @@ export default {
         'light-AlphaPurple': '#603f96a8',
         'white': '#ffffff',
         'light-BG': '#F1F4F4',
+        'dark-BG': '#0E0B0B',
+        'dark-Green': '#A9CF6F',
+        'dark-AlphaGreen': '#aed27918',
+        'dark-HoverGreen': '#69922b',
       },
       screens: {
         'xs': '300px',
         'sm': '500px',
         'md': '768px',
       },
+      darkMode: "class"
     },
   },
   plugins: [],

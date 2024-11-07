@@ -2,8 +2,8 @@ import React from 'react';
 
 const DownYT = () => {
     return (
-        <div className="bg-[#3500771e] backdrop-blur-sm p-8 rounded-lg shadow-lg mt-[100px] max-w-4xl mx-auto">
-            <h1 className=" font-magra text-center text-purple-700  text-3xl mb-4">
+        <div className="bg-[#3500771e] dark:bg-dark-AlphaGreen backdrop-blur-sm p-8 rounded-lg shadow-lg mt-[100px] max-w-4xl mx-auto">
+            <h1 className=" font-magra text-center text-purple-700 dark:text-dark-Green text-3xl mb-4">
                 YOASOBI / Idol (「アイドル」English Ver.)
             </h1>
 
@@ -17,7 +17,7 @@ const DownYT = () => {
                     />
                     <a
                         href="#"
-                        className="mt-4 text-purple-700 font-medium flex items-center hover:underline"
+                        className="mt-4 text-purple-700 dark:text-dark-Green font-medium flex items-center hover:underline"
                     >
                         <svg
                             className="w-5 h-5 mr-1"
@@ -37,19 +37,19 @@ const DownYT = () => {
 
                 {/* Download Quality Section */}
                 <div className="flex-1 ml-[60px]">
-                    <h2 className="text-gray-700 text-lg mb-4 ">
+                    <h2 className="text-gray-700 text-lg mb-4 dark:text-white">
                         Choose Download Quality...
                     </h2>
-                    <div className=" rounded-lg max-w-[400px]">
+                    <div className=" rounded-lg max-w-[400px] ">
                         {/* Quality Options */}
                         {['240p', '480p', '720p', '1080p'].map((quality) => (
                             <div
                                 key={quality}
-                                className="flex justify-between items-center border-b last:border-b-0 border-black py-2"
+                                className="flex justify-between items-center border-b last:border-b-0 border-black dark:border-white py-3 "
                             >
-                                <span className="text-gray-800">{quality}</span>
-                                <span className="text-gray-600">mp4</span>
-                                <button className="bg-light-Purple text-white text-sm  py-1 px-4 rounded-lg hover:bg-light-AlphaPurple transition">
+                                <span className="text-gray-800 dark:text-white">{quality}</span>
+                                <span className="text-gray-600 dark:text-white">mp4</span>
+                                <button className="bg-light-Purple dark:bg-dark-Green dark:text-black text-white text-sm  py-1 px-4 rounded-lg hover:bg-light-AlphaPurple dark:hover:bg-dark-HoverGreen transition">
                                     Download
                                 </button>
                             </div>

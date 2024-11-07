@@ -6,7 +6,11 @@
 @tailwind components;
 @tailwind utilities;
 
-/* 
-body {
-    color: #432e5d1e;
+
+/* body {
+    color: #69922b;
+} */
+
+/* * {
+    @apply transition-colors duration-500;
 } */
