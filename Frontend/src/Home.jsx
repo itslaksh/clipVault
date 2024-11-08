@@ -71,7 +71,7 @@ const Home = () => {
           </div>
 
           <div className="flex items-center justify-center mt-14">
-            <div className='inline-flex items-center justify-between border p-2 border-black dark:border-white  rounded-full antialiased md:min-w-[400px] md:max-w-[600px]'>
+            <div className='inline-flex items-center justify-between border p-2 border-black dark:border-white dark:text-white rounded-full antialiased md:min-w-[400px] md:max-w-[600px]'>
               <input
                 type="text"
                 placeholder={`Paste your ${activeTab === 'youtube' ? 'YouTube' : 'Reddit'} link here...`}
